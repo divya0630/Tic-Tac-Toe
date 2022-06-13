@@ -1,0 +1,58 @@
+-----------------Plan------------------ 
+
+I.Activities and Tasks
+
+1.Player vs AI - Vanilla
+2.Player vs Player - Vanilla
+3.Player vs Player through Server - Vanilla
+4.Player vs AI - Butterscotch
+5.Player vs Player - Butterscotch
+6.Game UI
+7.Animation
+8.Integration
+
+II.Dependencies
+
+1.Task 2 and 3 are dependent on Task 1 since the original game is being developed in Task 1.
+2.Similar to point 1 Task 5 is dependent on Task 4.
+3.Task 7 is dependent on all Tasks from 1 to 5 since the animation of each mode is done individually with relation.
+4.Task 8 is dependent on Task 7, where each mode after completion of its animation is linked to the game UI.
+
+III.Sequence for completion of Tasks
+
+1.Once Task 1 is completed, Task 2 and 3 can be completed side by side since two different members of the group work on them.
+2.Similary, once Task 4 is completed, Task 5 can be completed.
+3.As and when a task from Task 1 to 5 get completed, its animation can be done.
+4.Game UI is an individual task which can be created irrespective of any other task.
+5.Integration of every other task to the game UI is done as and when its completed along with its animation
+
+IV.Time Duration for each Task
+
+1.Task 1 required 04 days
+2.Task 2 required 03 days
+3.Task 3 required 09 days
+4.Task 4 required 20 days
+5.Task 5 required 05 days
+6.Task 6 required 10 days
+7.Task 7 required 20 days
+8.Task 8 required 10 days
+
+---------------Roles and Responsibilites-----------------
+
+We have a team of three members : 
+1.Shreyas Borole - Handling the Server, Animation and UI
+	He was also responsible for handling the animation of the game along with some part of UI. He also developed the 3rd mode in our game i.e. 
+	playing with another player against the server on different devices. 
+2.Divya Gupta - Developing the game variants - vanilla and butterscotch against AI
+	She was responsible for developing the algorithm for the game. She also developed the 1st mode of our game i.e. against AI for both the versions.
+3.Ketan Jindal - Building local multiplayer mode for both versions, handling the UI of the game and navigation of the webapplication(integration)
+	He was responsible for developing the UI of the game. He also developed the 2nd mode of the game i.e. local multiplayer for both versions.
+
+
+
+
+
+
+
+
+

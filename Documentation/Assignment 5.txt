@@ -1,0 +1,14 @@
+*Q. 3 Explain the deployment of your game for playing 
+on the server.*
+
+Our game's backend is an NodeJS web application, 
+also there is no any kind of database used in our 
+project, so deploying it to cloud platform is cheap 
+and in some cases free (limited bandwidth, hours).
+ Also since there is no CPU intensive, memory intensive
+ and bandwidth intensive tasks on server side, a thin 
+server would be suffice for our project. Cloud services
+ like AWS, Digital Ocean, Google Cloud, Heroku, etc can
+ be used to deploy the game backend. Mainly, Heroku is
+ easier to use, maintain and their free plan is 
+sufficient for our project.

@@ -1,0 +1,23 @@
+Explain how you are handling different events while playing games on server and on
+local machine.
+
+Events while playing game on local machine
+1] inputMove:- As this is a two player game player 1 has to give some input for starting the game.
+2] updateBoard:- As the game is initiaized, player 1 has to play his move which is updated on the board.
+3] passTurn:- Now the turn is passed to the player 2 as per the rules of the game. 
+4] inputMove:- Player 2 intializes its move in the game.
+5] updateBoard:- As the move is been played it gets updated on the board and the winning cases are being checked simultaneously.
+6] displayBoard:- The updated board after the moves of both players is being displayed.
+
+Events while playing game on server
+1] sendGeneratedCode:- Player 1 generates the code for playing the game on the server and passes the code to the player 2.
+2] enterCode:- Player 2 enters the code on the server and waits for validation.
+3] validateCode:- Once the code is validated on the server player 1 gets to know the player 2 has joined and the game starts.
+4] inputMove:- Player 1 initializes its move in the game.
+5] updateBoard:- The move played by the player 1 is reflected through the server on the player 2's side.
+6] passTurn:- Now the turn is passed to the player 2 as per the rules of the game. 
+7] inputMove:- Player 2 intializes its move in the game.
+8] updateBoard:- As the move is been played it gets updated on the board through the server and the winning cases are being checked simultaneously.
+9] displayBoard:- The updated board after the moves of both players is being displayed on both the sides of the server(ie. Player 1 & Player 2)
+10] termination:- When the opponent player leaves the match once the game is started on the server, the server gives the message to the other player stating that the player has left the
+ game and the game ends.

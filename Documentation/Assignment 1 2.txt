@@ -1,0 +1,39 @@
+******************Describe all technologies you have used for your project and give the reason for choosing it**********************************
+
+There are basically 3 technologies which are being used in our project that are:
+1) p5js :-   p5.js is a JavaScript library for creative coding. A collection of pre-written code, 
+	    it provides us with tools that simplify the process of creating interactive visuals with code in the web browser.
+
+The idea behind using this is as it is a high-level graphics library which is very useful for game development as there are many predifined
+functions which can be used for better interaction as well as in the animation part.
+
+2) WebSockets :- A WebSocket is a persistent connection between a client and server. WebSockets provide a bidirectional , full-duplex communications
+		 channel that operates over HTTP through a single TCP/IP socket connection. At its core , the WebSocket protocol facilitates message passing between 
+		 a client and server.
+
+The idea of WebSockets was borne out of the limitations of HTTP-based technology. With HTTP , a client requests a resource and the server responds with the requested 
+data. HTTP is a strictly unidirectional protocol - any data sent from the server to the client must be first requested by the client. Websockets uses HTTP as the 
+initial transport mechanism but keeps the TCP connection alive after the HTTP response is received so that it can be used for sending messages between client and 
+server. WebSockets allow us to build  "real-time" applications without the use of long-polling.
+
+3) Node.js :- Node.js is primary used for non-blocking , event -driven servers, due to its single-threaded nature. It's used for traditional web sites and backend API 
+	     services , but was designed with real-time , push-based architectures in mind. It is a runtime environment thats used to run JavaScript outside the browser.
+
+Node.js is a very good at handling simultaneous connections. Since IoT is built on many devices sending small messages that must be handled quickly, Node. js makes a 
+good backend for these kinds of applications, providing serverless architecture and real-time communication support.
+
+
+*********************List all UI elements and describe purpose of using it in your project***********************************
+
+
+The UI elements used in our project are buttons and textfield.
+
+There are in total 13 buttons used in our project with different functionalities performed by each.
+There is a common button on every screen named as help.
+On the main screen there are 2 buttons which describes the two variants(vanilla & butterscotch) of the game.
+On the next screen followed by any variant there are 4 buttons that are the different modes of the game (against AI , against multiplayer, against server) and the back button.
+The above mentioned buttons are available on both the variants.
+In the against server section there are 2 buttons (to generate code, to validate code) which helps the user to response against the server.
+Apart from the buttons we have used a textfield which is being used when the code is generated, to copy the code as well as when the code is to be validated.
+
+
